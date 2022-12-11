@@ -1,0 +1,156 @@
+*{
+	margin: 0%;		
+}
+body{
+	background-image: linear-gradient(to right, #1A2980 0%, #26D0CE  51%, #1A2980  100%);
+}
+.myself{
+	color: white;
+	text-align: center;
+}
+.myself *{
+	line-height: 2;
+}
+.name{
+	font-size: 38px;
+}
+.myself .fa-brands,.footer i{
+	margin-left: 2%;
+}
+.spaces{
+	margin: 4% 7%;
+	padding:2% 3% 5% 3%;
+	background-color: white;
+}
+.me{
+	margin-bottom: 3%;
+}
+.information{
+	display: flex;
+}
+.information p{
+	margin-left: 3%;
+}
+.project-details{
+	display: flex;
+	justify-content: space-evenly;
+}
+.project-details>div{
+	width: 30%;
+}
+.working-year{
+	color: grey;
+	margin-top: 5%;
+}
+.company-name{
+	font-size: 20px;
+	font-weight: bold;
+}
+.company-role,.company-year{
+	color: grey;
+	margin: 2% 0%;
+	line-height: 1.7;
+}
+.college-name{
+	color: grey;
+}
+.educational-details{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+.language{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 3%;
+}
+.rating{
+	color: grey;
+	margin-left: 10%;
+}
+.social-network{
+	margin-top: 3%;
+	display: flex;
+	justify-content: space-between;
+}
+.social-network *{
+	display: inline !important;
+}
+.footer{
+	color: white;
+	text-align: center;
+	line-height: 2;
+}
+@media (max-width: 1050px){
+	.about p{
+		font-size: 13px;
+	}
+}
+@media (max-width: 800px){
+	.me{
+		text-align: center;
+	}
+	.information{
+		display: block;
+		text-align: center;
+	}
+	.information p{
+		font-size: 13px;
+	}
+	.information img{
+		width: 30%;
+		height: 240px;
+	}
+}
+@media (max-width: 650px){
+	.information img{
+		height: 200px;
+	}
+	.company-role{
+		line-height: 1.4;
+		font-size: 13px;
+	}
+	.college-name{
+		margin-top: 3%;
+		font-size: 12px;
+	}
+}
+@media (max-width: 576px){
+	.information img{
+		height: 175px;
+	}
+	.information p{
+		font-size: 10px;
+	}
+}
+@media (max-width: 450px){
+	.information img{
+		height: 150px;
+	}
+	.project-name{
+		font-size: 14px;
+	}
+	.working-year{
+		font-size: 12px;
+	}
+}
+@media (max-width: 410px){
+	.name{
+		font-size: 25px;
+	}
+	.information img{
+		height: 130px;
+	}
+	.college-name{
+		font-size: 10px;
+	}
+	.educational-details b{
+		font-size: 12px;
+	}
+	.language p{
+		font-size: 12px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+}
